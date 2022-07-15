@@ -1,0 +1,114 @@
+﻿
+body
+{
+}
+#conteudo {
+    background-color: #ccc;
+    width: 850px;
+    height: 1130px;
+    margin: auto;
+}
+#topo{
+    width:850px;
+    height:200px;
+    background-color:skyblue;    
+}
+#menu {
+    width: 850px;
+    height: 50px;
+    background-color: #665;
+    
+}
+#fotop{
+    width: 630px;
+    height: 180px;
+    background-color: #999;
+    float:left;
+    margin-top:20px;
+    margin-left:10px;
+}
+#cont_rel {
+    width: 180px;
+    height: 260px;
+    background-color: #999;
+    float: right;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right:10px;
+}
+#descl {
+    width: 630px;
+    height: 70px;
+    background-color: #999;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#caixa{
+    margin-top:30px;
+    float:left;
+    background-color:#6c0;
+    width:850px;
+    height:250px;
+
+}
+div.not1{
+    background-color:#999;
+    width:305px;
+    height:170px;
+    float:left;
+    padding-left:10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.not2 {
+    background-color: #999;
+    width: 305px;
+    height: 170px;
+    float: left;
+    margin-right: 10px;
+}
+
+.dnot1 {
+    background-color: #999;
+    width: 305px;
+    height: 70px;
+    padding-left: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-top:10px;
+}
+
+div.dnot2 {
+    background-color: #999;
+    width: 305px;
+    height: 70px;
+    float: left;
+    margin-top: 10px;
+    margin-right:10px;
+
+}
+.redes{
+        background-color:#999;
+        width:180px;
+        height: 250px;
+        float:right;
+        margin-right:10px;
+}
+#caixa2 {
+    margin-top: 30px;
+    float: left;
+    background-color: #6c0;
+    width: 850px;
+    height: 250px;
+}
+#rodape{
+    width:850px;
+    height:50px;
+    text-align:center;
+    background-color:#665;
+    float:left;
+}

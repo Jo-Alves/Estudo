@@ -1,0 +1,17 @@
+<html>
+<head>
+<title> Trabalhando com listas</title>
+</head>
+<body>
+<h3><center> Criando listas Ordenadas</center></h3>
+<p>
+<ol> 
+<ol type=I>
+<li> Adriane<br>
+<li> Everson<br>
+<li> Marco<br>
+<li> Merris<br>
+<li> Reinaldo<br>
+</ol>
+</body>
+</html>

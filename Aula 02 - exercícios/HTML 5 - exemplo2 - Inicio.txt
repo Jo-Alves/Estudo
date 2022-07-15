@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="pt-br">
+Estou modelando HTML5 com doctype e definindo como linguagem o português
+<head>
+<link rel="stylesheet" type="text/css" href="estilo.css"> 
+</head>
+</html>
+
+
+</html>

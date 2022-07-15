@@ -1,0 +1,14 @@
+<html>
+<head>
+<title> Formulários</title>
+</head>
+<body>
+<h3><center>CRIANDO FORMULÁRIOS</centre></h3><p>
+<form>
+Nome completo: <input type=text name = nome completo> <br>
+Senha:<input type=password name=
+senha><br>
+</form>
+</body>
+</html>
+

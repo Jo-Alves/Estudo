@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Exemplo 3  de JavaScript</title>
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+
+        }
+    </style>
+</head>
+<body>
+    <!--JavaScript pode alterar estilos HTML-->
+    <h1>Meu primeiro JavaScript</h1>
+    <p id="vida">O JavaScript pode alterar o estilo de um elemento HTML.</p>
+    <script>
+        function myFunction() {
+            document.getElementById("vida").style.fontSize = "25px";
+            document.getElementById("vida").style.color = "aqua";
+            document.getElementById("vida").style.backgroundColor = "Yellow";
+        }
+    </script>
+
+
+    <input type="button" onclick="myFunction()" value="Clique-me" />
+    <br /><br /><br /><br />
+
+    <table>
+        <tr>
+            <th>Tag</th>
+            <th>Descrição</th>
+        </tr>
+        <tr>
+            <td>&lsaquo;script&rsaquo;</td>
+            <td>Define um script do lado do cliente</td>
+        </tr>
+
+        <tr>
+            <td>&lsaquo;noscript&rsaquo;</td>
+            <td>Define um conteúdo alternativo para usuários que não suportam scripts do lado do cliente</td>
+        </tr>
+
+    </table>
+</body>
+</html>

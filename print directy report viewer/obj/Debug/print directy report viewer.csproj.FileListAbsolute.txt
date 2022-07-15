@@ -1,0 +1,71 @@
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\print directy report viewer.exe.config
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\print directy report viewer.exe
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\print directy report viewer.pdb
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\EnvDTE.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\stdole.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\Desktop\print directy report viewer\obj\Debug\print directy report viewer.csprojAssemblyReference.cache
+C:\Users\Joelmir\Desktop\print directy report viewer\obj\Debug\print_directy_report_viewer.Form1.resources
+C:\Users\Joelmir\Desktop\print directy report viewer\obj\Debug\print_directy_report_viewer.Properties.Resources.resources
+C:\Users\Joelmir\Desktop\print directy report viewer\obj\Debug\print directy report viewer.csproj.GenerateResource.cache
+C:\Users\Joelmir\Desktop\print directy report viewer\obj\Debug\RdlCompile.cache
+C:\Users\Joelmir\Desktop\print directy report viewer\obj\Debug\RdlCompile.compiled
+C:\Users\Joelmir\Desktop\print directy report viewer\obj\Debug\print directy report viewer.csproj.CoreCompileInputs.cache
+C:\Users\Joelmir\Desktop\print directy report viewer\obj\Debug\print directy report viewer.csproj.CopyComplete
+C:\Users\Joelmir\Desktop\print directy report viewer\obj\Debug\print directy report viewer.exe
+C:\Users\Joelmir\Desktop\print directy report viewer\obj\Debug\print directy report viewer.pdb

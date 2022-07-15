@@ -1,0 +1,24 @@
+<table border=8 cellspacing=0 cellpadding=10>
+<caption align=top>Legenda no topo</caption>
+<tr>
+<th> Título A </th><th> Título B </th><th> 
+Título C </th>
+</tr>
+<tr>
+<td bgcolor="gray">Linha 1 Coluna1 </td>
+<td colspan=2 align=center> Linha 1 Coluna2 </td>
+<td bgcolor="yellow">Linha 1 Coluna3 </td>
+</tr>
+<tr>
+<td bgcolor="red"> Linha 2 Coluna1 </td>
+<td> Linha 2 Coluna2 </td>
+<td bgcolor="green"> Linha 3 Coluna3 </td>
+</tr>
+<tr>
+<td> Linha 3 Coluna1 </td>
+<td bgcolor="blue"> Linha 3 Coluna2 </td>
+<td> Linha 3 Coluna3 </td>
+</tr>
+</table>
+
+

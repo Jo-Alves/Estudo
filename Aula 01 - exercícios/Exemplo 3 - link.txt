@@ -1,0 +1,7 @@
+<body>
+<h3><center> Vinculando Páginas</center></h3>
+<p>
+Um link em geral se transforma em “dedo”
+<p>
+<a href="cadastro.htm">Clique para cadastro</a>
+</body>

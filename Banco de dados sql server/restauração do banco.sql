@@ -1,0 +1,1 @@
+restore database banco_backup from disk ='C:\backup\banco_backup-full2.txt'

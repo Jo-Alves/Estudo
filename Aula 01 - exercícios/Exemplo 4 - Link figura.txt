@@ -1,0 +1,10 @@
+<body>
+<h3><center> Imagens como link</center></h3>
+<p>
+<center> Clique nas bandeiras para informações sobre país. </center>
+<p>
+<a href="brasil.html"><img src="banbra.bmp"</a><p>
+<a href="usa.html"><img src="banusa.bmp"</a><p>
+<a href="japao.html"><img src="banjap.bmp"</a><p>
+
+</body>

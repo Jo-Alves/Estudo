@@ -1,0 +1,16 @@
+<html>
+<head>
+<title> Trabalhando com listas</title>
+</head>
+<body>
+<h3><center> Criando listas Não-Ordenadas</center></h3>
+<p>
+<ul type=square>
+<li> Analise de Sistemas<br>
+<li> Redes de Computadores<br>
+<li> IHC<br>
+<li> Engenharia de Software<br>
+<li> Programação Web<br>
+</ul>
+</body>
+</html>

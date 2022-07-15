@@ -1,0 +1,39 @@
+<html>
+<head>
+<title> Formulários</title>
+</head>
+<body>
+<h3><center>Cadastro de pessoa física</centre></h3><p>
+<form>
+<table>
+<tr>
+<td>Nome:</td>
+<td><input type=text name=nomecompleto size=25>
+<td>Profissão:</td>
+<td><input type=text name=profis size=20>
+<td>Endereço:</td>
+<td><input type=text name=ender size=20>
+</tr>
+<tr>
+<td>Bairro:</td>
+<td><input type=text name=bairro></td>
+<td>CEP:</td>
+<td><input type=text name=cep maxlength=9 size=9></td>
+<td>Cidade:</td>
+<td><input type=text name=cidade size=20></td>
+</tr>
+</table>
+<table>
+<tr>
+<td> Estado Civil:</td>
+<td> Solteiro <input type=radio name=estcivil>
+Casado<input type=radio name=estcivil>
+Divorciado<input type=radio name=estcivil>
+Outros<input type=radio name=estcivil></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+

@@ -1,0 +1,24 @@
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\bin\Debug\Cadastro.exe
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\bin\Debug\Cadastro.pdb
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\obj\Debug\Cadastro.Form1.resources
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\obj\Debug\Cadastro.Properties.Resources.resources
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\obj\Debug\Cadastro.csproj.GenerateResource.Cache
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\obj\Debug\Cadastro.exe
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\obj\Debug\Cadastro.pdb
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\bin\Debug\Cadastro.exe
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\bin\Debug\Cadastro.pdb
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\obj\Debug\Cadastro.Form1.resources
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\obj\Debug\Cadastro.Properties.Resources.resources
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\obj\Debug\Cadastro.csproj.GenerateResource.Cache
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\obj\Debug\Cadastro.exe
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\obj\Debug\Cadastro.pdb
+C:\Users\Joelmir\Desktop\Banco de dados sql server\Cadastro\Cadastro\obj\Debug\Cadastro.exe
+C:\Users\Joelmir\Desktop\Banco de dados sql server\Cadastro\Cadastro\obj\Debug\Cadastro.pdb
+C:\Users\Joelmir\Desktop\Banco de dados sql server\Cadastro\Cadastro\bin\Debug\Cadastro.exe
+C:\Users\Joelmir\Desktop\Banco de dados sql server\Cadastro\Cadastro\bin\Debug\Cadastro.pdb
+C:\Users\Joelmir\Desktop\Banco de dados sql server\Cadastro\Cadastro\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Joelmir\Desktop\Banco de dados sql server\Cadastro\Cadastro\obj\Debug\Cadastro.Form1.resources
+C:\Users\Joelmir\Desktop\Banco de dados sql server\Cadastro\Cadastro\obj\Debug\Cadastro.Properties.Resources.resources
+C:\Users\Joelmir\Desktop\Banco de dados sql server\Cadastro\Cadastro\obj\Debug\Cadastro.csproj.GenerateResource.Cache

@@ -1,0 +1,8 @@
+<header> - Define um cabeçalho para um documento ou uma seção
+<nav> - Define um recipiente para links de navegação
+<section> - Define uma seção em um documento
+<article> - Define um artigo autônomo independente
+<aside> - Define o conteúdo além do conteúdo (como uma barra lateral)
+<footer> - Define um rodapé para um documento ou uma seção
+<details> - Define detalhes adicionais
+<summaro> - Define um título para o elemento <details>

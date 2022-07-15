@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Tipos de Elemento</title>
+</head>
+<body>
+    <form action="envio.html">
+        <p>&lsaquo; input type="text"&rsaquo; define um campo de entrada de texto de uma linha</p><br />
+        <label for="nome">Nome: </label><input type="text" name="PrimeiroNome" id="nome" placeholder="Nome" autofocus />
+        <label for="Snome">Sobrenome: </label><input id="Snome" type="text" name="SobreNome" placeholder="Sobrenome" />
+        <input type="submit" />
+        <br /><hr /><br />
+        <p>"&lsaquo; input type="password"&rsaquo;" define um campo de senha</p>
+        <label for="nome">Nome: </label><input id="nome" type="text" placeholder="Digite o seu nome" maxlength="100" />
+        <label for="senha">Senha: </label><input id="senha" type="password" placeholder="Digite a sua senha" maxlength="10" />
+        <input type="submit" />
+        <br /><hr /><br />
+        <p>&lsaquo; input type="submit"&rsaquo; define um botão para enviar dados de formulário para um manipulador de formulário .
+        <p>O form-handler é tipicamente uma página de servidor com um script para processamento de dados de entrada.</p>
+        <p>O form-handler é especificado no atributo de ação do formulário :</p>
+
+        <label for="nome">Nome: </label><input id="nome" type="text" value="Joelmir" />
+        <label for="Snome">Sobrenome: </label><input id="Snome" type="text" name="SobreNome" value="Carvalho" />
+        <input type="submit" />
+
+        <br /><hr /><br />
+        <p>&lsaquo; input type="reset"&rsaquo; define um botão de reinicialização que irá redefinir todos os valores de formulário para seus valores padrão</p>
+
+        <label for="nome">Nome: </label><input id="nome" type="text" value="Joelmir" />
+        <label for="Snome">Sobrenome: </label><input id="Snome" type="text" name="SobreNome" value="Carvalho" />
+        <input type="reset" value="Redefinir" />
+
+        <br /><hr /><br />
+
+        <p>&lsaquo; input type="radio"&rsaquo; define um botão de opção.</p>
+        <p>Os botões de rádio permitem que um usuário selecione SOMENTE UM de um número limitado de opções:</p>
+        <input type="radio" name="genero" id="Masculino" checked /><label for="Masculino">Masculino</label><br />
+        <input type="radio" name="genero" id="Feminino" /><label for="Feminino">Feminino</label><br />
+        <input type="radio" name="genero" id="outros" /><label for="outros">Outros</label>
+
+        <br /><hr /><br />
+
+        <p>&lsaquo; input type="checkbox"&rsaquo; define uma caixa de seleção .</p>
+        <p>As caixas de seleção permitem que um usuário selecione as opções ZERO ou MORE de um número limitado de opções.</p>
+        <input type="checkbox" name="objeto1" id="bike" /><label for="bike" style="color:aqua;">Eu tenho bicicleta</label>
+        <input type="checkbox" name="obj2" id="cars" /><label for="cars" style="color:aqua; background-color:yellow;">Eu tenho Carro</label>
+        <input type="reset" />
+        <br /><hr /><br />
+
+        <p>&lsaquo; input type="button"&rsaquo;</p> define um botão
+        <input type="button" value="Clique-me" onclick="alert('Olá Mundo!!')" />
+
+        <br /><hr /><br />
+
+        <p>O &lsaquo;input type="color"&rsaquo; é usado para campos de entrada que devem conter uma cor. Dependendo do suporte do navegador, um seletor de cores pode aparecer no campo de entrada:</p>
+        <label for="sel">Selecione a sua cor favorita</label><input type="color" id="sel" />
+        <br /><hr /><br />
+        <p>O &lsaquo; de entrada="data"&rsaquo; é usado para campos de entrada que devem conter uma data. Dependendo do suporte do navegador, um seletor de data pode aparecer no campo de entrada.</p>
+        <label for="data">Aniversário</label><input type="date" value="" id="data" />
+        <p>Você também pode adicionar restrições às datas:</p>
+        Insira uma data antes de 31/12/1979: <input type="date" max="2019/12/31" /><br />
+        Insira uma data após 02/01/2000: <input type="date" min="2000/01/02" />
+        <br /><hr /><br />
+        <p>O &lsaquo; type="datetime-local"&rsaquo; especifica um campo de entrada de data e hora, sem fuso horário. Dependendo do suporte do navegador, um seletor de data pode aparecer no campo de entrada.</p>
+        <input type="datetime-local" /><br />
+        <br /><hr /><br />
+        <p>O &lsaquo; type="email"&rsaquo; é usado para campos de entrada que devem conter um endereço de e-mail. Dependendo do suporte do navegador, o endereço de e-mail pode ser validado automaticamente quando submetido. Alguns smartphones reconhecem o tipo de email e adicionam ".com" ao teclado para combinar a entrada de e-mail.</p>
+        <label>E-mail: </label><input type="email" /><input type="submit" />
+        <br /><hr /><br />
+        <p>O &lsaquo; type="month"&rsaquo; permite ao usuário selecionar um mês e ano. Dependendo do suporte do navegador, um seletor de data pode aparecer no campo de entrada.</p>
+        Aniversário(mês e ano): <input type="month" /><input type="submit" />
+
+        <br /><hr /><br />
+        <p>O &lsaquo; type="number"&rsaquo; define um campo de entrada numérico. Você também pode definir restrições sobre quais os números aceitos. O exemplo a seguir exibe um campo de entrada numérica, onde você pode inserir um valor de 1 a 5:</p>
+        <input type="number" max="5" min="1" />
+        <br /><hr /><br />
+        <p>Usando o atributo step</p>
+        <input type="number" min="0" max="100" step="5" value="-5" />
+        
+    </form>
+    </body>
+    </html>

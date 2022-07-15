@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "nova pasta1", "nova pasta1\nova pasta1.phpproj", "{C279D038-A6B3-4F3E-AE77-F630ABEFCF38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C279D038-A6B3-4F3E-AE77-F630ABEFCF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C279D038-A6B3-4F3E-AE77-F630ABEFCF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1F2C2F5-63A8-4877-BCF6-03B1AB3C77DB}
+	EndGlobalSection
+EndGlobal

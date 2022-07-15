@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title title="Listas desordenadas">Listas desordenadas</title>
+</head>
+<body>
+    <ul>
+        <li style="list-style-type:circle;">Amizade</li>
+        <li style="list-style-type:disc;">Família</li>
+        <li style="list-style-type:square;">Colega</li>
+        <li style="list-style-type:none;">Conhecidos</li>
+        <li>Afilhados</li>
+    </ul>
+    <hr />
+    <p><h1 style="color:aqua;">Compadres e afilhados</h1></p>
+    <br />
+    <hr />
+    <p>lista com marcador inside</p>
+    <ul style="list-style-position:inside;">
+
+        <li>
+            Girlene e Armando
+            <ul><li>Gislaine</li></ul>
+        </li>
+        <li>
+            Elizabeth e Gilson
+            <ul><li>Taís</li><li>Renato</li></ul>
+        </li>
+    </ul>
+    <hr />
+    <p>Lista com marcador com a posição outisid</p>
+    <ul style="list-style-position:outside;">
+
+        <li>
+            Girlene e Armando
+            <ul><li>Gislaine</li></ul>
+        </li>
+        <li>
+            Elizabeth e Gilson
+            <ul><li>Taís</li><li>Renato</li></ul>
+        </li>
+    </ul>
+
+    <hr />
+
+    <style>
+        ul#LISTA_PREFERENCIAL {
+            list-style: inside url("Gifs-para-Celular.gif");
+        }
+    </style>
+    <ul id="LISTA_PREFERENCIAL">
+        <li>TEXTO PARA DEMOSTRAR A PROPRIEDADE DE DECLARAÇÃO ÚNICA PARA LISTAS</li>
+        <li>ITEM DOIS</li>
+        <li>ITEM TRÊS</li>
+    </ul>
+</body>
+</html>
+
+<!--Uma lista não ordenada começa com a tag <ul>.
+Cada item de lista começa com a marca <li>
+   Os itens da lista serão marcados com marcadores (pequenos círculos pretos) por padrão-->
+
+<!--Use o elemento HTML <ul> para definir uma lista não ordenada
+Use a propriedade CSS list-style-type para definir o marcador do item da lista
+Use o elemento HTML <ol> para definir uma lista ordenada
+Use o atributo de tipo HTML para definir o tipo de numeração
+Use o elemento HTML <li> para definir um item da lista
+Use o elemento HTML <dl> para definir uma lista de descrição
+Use o elemento HTML <dt> para definir o termo de descrição
+Use o elemento HTML <dd> para descrever o termo em uma lista de descrição
+As listas podem ser aninhadas dentro das listas
+Os itens da lista podem conter outros elementos HTML
+Use o flutuador da propriedade CSS : esquerda ou exibir: em linha para exibir uma lista horizontalmente-->

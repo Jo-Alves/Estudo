@@ -1,0 +1,17 @@
+backup
+https://www.youtube.com/watch?feature=player_detailpage&v=FrdoC-Rd1aU
+
+Sql server
+http://codigofonte.uol.com.br/busca/codigo/tags/todas/sql-server
+
+restauração
+http://www.csharpbr.com.br/Portal/VisualizarArtigo.aspx?Artigo=45
+
+backup
+http://www.csharpbr.com.br/Portal/VisualizarArtigo.aspx?Artigo=39
+
+Imprimindo
+http://pplware.sapo.pt/tutoriais/tutorial-c-imprimir-conteudo-da-datagridview/
+
+Projeto crud com listiview
+http://www.macoratti.net/11/04/C_MySQL_CRUD.pdf

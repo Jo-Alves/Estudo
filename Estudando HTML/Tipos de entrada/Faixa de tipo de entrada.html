@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Faixa de Tipo de Entrada</title>
+</head>
+<body>
+    <form action="envio.html">
+        <p>O &lsaquo; type="range"&rsaquo; define um controle para inserir um número cujo valor exato não é importante (como um controle deslizante). O intervalo padrão é de 0 a 100. No entanto, você pode definir restrições sobre quais os números aceitos com os atributos min, max e etapa:</p>
+        min<input type="range" min="0" max="10" />max
+        <p>O &lsaquo; input type="search"&rsaquo; é usado para campos de pesquisa (um campo de pesquisa se comporta como um campo de texto regular).</p>
+        Pesquisa no Google: <input type="search" />
+        <br /><hr /><br />
+
+        <script>
+            var mascaraFone = /^\(0xx[0-9]{2}\)[0-9]{4}-[0-9]{4}&/;
+            function validaFone(input) {
+                if (!mascaraFone.test(inp.value)) {
+                    input.setCustomValidity('a mascara do telefone está inválida!');
+                }
+                else {
+                    input.setCustomValidity('');
+                    document.getElementById('mensagemErro').innerHTML = input.validationMessage;
+                }
+            }
+        </script>
+
+        <p>O &lsaquo;input type="tel"&rsaquo; é usado para campos de entrada que devem conter um número de telefone.</p>
+        Telefone: <input onblur="validaFone(this
+    )" type="tel" placeholder="(99) 99999-9999" name="fone" required/><input type="submit" />
+
+        <br /><hr /><br />
+        <p>O &lsaquo; type="time"&rsaquo; permite ao usuário selecionar uma hora (sem fuso horário). Dependendo do suporte do navegador, um seletor de horário pode aparecer no campo de entrada.</p>
+        Selecione o tempo: <input type="time" /><input type="submit" />
+        <br /><hr /><br />
+        <p>O &lsaquo;input type="url"&rsaquo; é usado para campos de entrada que devem conter um endereço de URL. Dependendo do suporte do navegador, o campo url pode ser validado automaticamente quando submetido. Alguns smartphones reconhecem o tipo de URL e adicionam ".com" ao teclado para coincidir com a entrada do url.</p>
+        Adicione sua página inicial: <input type="url" value="http://" /><input type="submit" />
+        <br /><hr /><br />
+        <p>O &lsaquo;input type="week"&rsaquo; permite ao usuário selecionar uma semana e um ano. Dependendo do suporte do navegador, um seletor de data pode aparecer no campo de entrada.</p>
+        Selecione a semana: <input type="week" /><input type="submit" />
+        <br /><hr /><br />
+
+    </form>
+</body>
+</html>

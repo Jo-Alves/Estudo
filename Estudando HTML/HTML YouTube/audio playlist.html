@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Playlist</title>
+    <style>
+        #playlist{
+            list-style:none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration:none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+    </style>
+    <script src="audioPlayer.js">
+        audioPlayer();
+        function audioPlayer(); {
+            $("#audioPlayer")[0].src = $("#playlist li a")[0]
+            $("#audioPlayer")[0].play();
+            $("#playlist li a").click(function (e)){
+                e.preventDefault();
+                $("#audioPlayer")[0].src = this;
+            });
+        }
+    </script>
+</head>
+<body>
+    <audio src="Carrossel musica triste instrumental.mp3" controls="controls" id="audioPlayer" >Desculpe, o Navegador não suporta html5.</audio>
+    <ul id="playlist">
+        <li class="current-song"><a href="Brian Crain   Canon In D (Piano and Violin ♥).mp3">Brian Crain   Canon In D (Piano and Violin ♥)</a></li>
+        <li><a href="Enya - Fairytale (128kbit).mp3">Enya - Fairytale</a></li>
+        <li><a href="Fluke OST 13 Memories of Another Life.mp3">Fluke OST 13 Memories of Another Life</a></li>
+    </ul>
+</body>
+</html>

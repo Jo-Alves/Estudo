@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Display Exibição</title>
+    <style>
+        #Painel, .Giro{
+            font-size:1em;
+            padding:10px;
+            background-color:yellowgreen;
+            color:black;
+            border: 1px solid;
+            border-color:darkgreen;
+            margin:auto;
+            font-weight:bold;
+        }
+        .Giro {
+            text-align: center;
+        }
+        #Painel{
+            text-align:justify;
+            display:none;
+        }
+    </style>
+    
+    <script>
+        function minhaFuncao() {
+            document.getElementById("Painel").style.display = "block";
+        }
+        function minhaFuncao1() {
+            document.getElementById("Painel").style.display = "none";
+        }
+    </script>
+</head>
+<body>
+
+    <p class="Giro" onclick="minhaFuncao()">Clique para mostrar o painel</p>
+    <br />
+    <hr style="border:3px solid pink; border-collapse:collapse; " />
+    <br />
+    <p class="Giro" onclick="minhaFuncao1()">Clique para remover o painel</p>
+    <br /><br /><div id="Painel">
+        <p>Este Painel contém um elemento div, oculto por padrão(exibição; nenhum). É desenhado com CSS e usamos JavaScript para mostrar e remover (display: block e display:none).
+           Como funciona: observe que o elemento p com classe = "flip" tem um atributo onclick anexado a ele. 
+           Quando o usuário clicar no elemento p, é executada uma função chamada myFunction (), que altera o estilo do div com id = "panel" do display: none (hidden) para display: block (visible). 
+           Você aprenderá mais sobre JavaScript no nosso Tutorial de JavaScript.</p>
+    </div>
+
+</body>
+</html>

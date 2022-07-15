@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Layout</title>
+    <style>
+        .container{
+            width:100%;
+            border:1px solid gray;
+         }
+        header, footer {
+            padding: 1em; /*1em equivale a 16px*/
+            color: white;
+            background-color: black;
+            clear: left;
+            text-align: center;
+        }
+        nav{
+            float:left;
+            max-height:160px;
+            margin:0;
+            padding:1em;
+        }
+        nav ul{
+            list-style-type:none;
+            padding:0;
+        }
+        nav ul a{
+            text-decoration:none;
+        }
+        article{
+            margin-left:170px;
+            border-left:1px solid gray;
+            padding:1em;
+            overflow:hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>Galeria de cidades</h1>
+    </header>
+
+        <nav>
+            <ul>
+                <li><a href = "#">Londres</a></li>
+                <li><a href = "#"> Paris</a></li>
+                <li><a href="#">Tóquio</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>Londres</h1>
+            <p>
+                Londres é a capital da Inglaterra. É a cidade mais populosa do Reino Unido, com uma área metropolitana de mais de 13 milhões de habitantes.
+                </p>
+            <p>
+                Em pé no rio Tamisa, Londres tem sido um importante assentamento há dois milênios, sua história voltando à sua fundação pelos romanos, que o chamaram de Londinium.
+            </p>
+
+          </article>
+        <footer>Copyright &copy; W3Schools.com</footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<head> Define informações sobre o documento
+<title> Define o título de um documento
+<base> Define um endereço padrão ou um alvo padrão para todos os links em uma página
+<link> Define a relação entre um documento e um recurso externo
+<meta> Define metadados sobre um documento HTML
+<script> Define um script do lado do cliente
+<style> Define informações de estilo para um documento

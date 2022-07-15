@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="2"> <!--atualiza do documento em 2 segundos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Sempre usar essa tag
+Um elemento de <meta> viewport fornece instruções do navegador sobre como controlar as dimensões e a escala da página.
+A largura = parte da largura do dispositivo define a largura da página para seguir a largura da tela do dispositivo (que variará de acordo com o dispositivo).-->
+    <title>Exemplo 4 do JavaScript"</title>
+    <style>
+        table, th, td {
+            border: 1.5px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+
+    <!--JavaScript pode alterar os atributos HTML-->
+
+    <script>
+        function luz(sw) {
+            var pic;
+            if (sw == 0) {
+                pic = "pic_bulboff.jpg";
+            }
+            else if (sw == 1) {
+                pic = "pic_bulbon.jpg";
+            }
+            else if (sw == 2) {
+                pic = "pic_bulbonq.jpg";
+            }
+            document.getElementById("myImage").src = pic;
+        }
+    </script>
+    <img id="myImage" src="pic_bulboff.jpg" width="100" height="160" />
+    <p>
+        <input id="Button1" type="button" onclick="luz(2)" value="Luz Quebrada" />
+        <input id="Button1" type="button" onclick="luz(1)" value="Luz Acesa" />
+        <input id="Button1" type="button" onclick="luz(0)" value="Luz Apagada" />
+     </p>
+
+    <br /><br /><br /><br />
+
+    <table align="center">
+        <tr>
+            <th>Tag</th>
+            <th>Descrição</th>
+        </tr>
+        <tr>
+            <td><h1>&lsaquo;script&rsaquo;</h1></td>
+            <td>Define um script do lado do cliente</td>
+        </tr>
+
+        <tr>
+            <td><h1>&lsaquo;noscript&rsaquo;</h1></td>
+            <td>Define um conteúdo alternativo para usuários que não suportam scripts do lado do cliente</td>
+        </tr>
+
+    </table>
+</body>
+</html>

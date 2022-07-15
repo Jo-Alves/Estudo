@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="facebook.ico" type="image/x-icon" />
+
+    <title>Menus e submenus</title>
+</head>
+<body>
+    <div style="background-color:yellow;border:1px solid #cccccc;padding:10px; height:20px; text-align:center;" contextmenu="meuMenu" >Clique na Div com o direito do mouse para ver os menus.
+        <menu type="context" id="meuMenu">
+            <menuitem label="Atualizar" onclick="window.location.reload()" icon="atualizar.ico"></menuitem>
+            <menu label="compartilhar no...">
+                <menuitem label="YouTube" icon="youtube.ico" onclick="window.open('https://www.youtube.com/channel/UC6blYe3Btvo_8LN42AGtjyg?view_as=subscriber' + window.location.href)"></menuitem>
+                <menuitem label="Facebook" icon="facebook.ico" onclick="window.open('https://www.facebook.com/joelmirrogerio.carvalho' + window.location.href)"></menuitem>
+            </menu>
+        </menu>
+    </div>
+</body>
+</html>

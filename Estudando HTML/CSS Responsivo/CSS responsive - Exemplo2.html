@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Sempre usar essa tag-->
+    <meta charset="utf-8" />
+    <title>CSS responsive - Exemplo2</title>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        .left-Esquerda {
+            background-color: #2196F3;           
+            padding: 20px;
+            float: left;
+            width: 20%;
+        }
+        .main_Conteúdo {
+            background-color: #f1f1f1;           
+            padding: 20px;
+            float: left;
+            width: 60%;
+        }
+        .right-Direita {
+            background-color: #4CAF50;
+            padding:20px;
+            float:left;
+            width:20%;
+        }
+        @media(max-width:800px){
+            .left, .main,.right{
+                width:100%}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="left-Esquerda">Menu a esquerda<br /><br /><br /><br /></div>
+    <div class="main_Conteúdo">Conteúdo Principal<br /><br /><br /><br /></div>
+    <div class="right-Direita">Menu a direita<br /><br /><br /><br /></div>
+    <p>Redimensione a janela do navegador.</p>
+    <p>Certifique-se de alcançar o ponto de interrupção em 800px ao redimensionar este quadro.</p>
+</body>
+</html>

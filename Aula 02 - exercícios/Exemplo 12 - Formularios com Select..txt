@@ -1,0 +1,18 @@
+<html>
+<head>
+<title> Formulários</title>
+</head>
+<body>
+<h3><center>CRIANDO SELEÇÃO</centre></h3><p>
+<form>
+Nome completo: <input type=text name = nome completo> <br>
+EstadO:<select name=estado>
+<option>Bahia
+<option>Ceará
+<option>Paraná
+<option> São Paulo
+</select>
+</form>
+</body>
+</html>
+

@@ -1,0 +1,7 @@
+numero com virgulas
+
+ if (char.IsNumber(e.KeyChar) || e.KeyChar == ',')
+            {
+                if (System.Text.RegularExpressions.Regex.IsMatch(txt_DescontoDinheiro.Text, @"\,\d\d"))
+                    e.Handled = true;
+            }

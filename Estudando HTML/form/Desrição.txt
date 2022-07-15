@@ -1,0 +1,12 @@
+<form> Define um formulário HTML para entrada do usuário
+<input> Define um controle de entrada
+<textarea> Define um controle de entrada de várias linhas (área de texto)
+<label> Define uma etiqueta para um elemento <input>
+<fieldset> Elementos relacionados aos grupos em uma forma
+<legend> Define uma legenda para um elemento <fieldset>
+<selecion> Define uma lista suspensa
+<optgroup> Define um grupo de opções relacionadas em uma lista drop-down
+<option> Define uma opção em uma lista suspensa
+<button> Define um botão clicável
+<datalist> Especifica uma lista de opções pré-definidas para controles de entrada
+<output> Define o resultado de um cálculo

@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Display Exibição</title>
+    <style>
+        .imgBox{
+            float:left;
+            text-align:center;
+            width:200px;
+            border:1px solid gray;
+            margin:4px;
+            padding:10px;
+        }
+        input{
+            width:200px;
+            height:50px;
+            color:black;
+            background-color:aqua;
+        }
+    </style>
+</head>
+<body>
+    <h3>Diferença entre display: none e visiblity:hidden</h3>
+    <p><strong>Visisibilidade:Oculto</strong> esconde o elemento, mas ainda ocupa o espaço no layout.</p>
+    <p><strong>Exibir:none</strong> remove o elemento do documento. Remove o elemento do documento. Não ocupa qualquer espaço.</p>
+    <div class="imgBox" id="imgBox1">
+        Caixa1<br /><img src="img_fjords.jpg" alt="Natureza" style="width:100%" /><input type="button" onclick="removeElement()" value="Remover Elemento" />
+     </div>
+    <div class="imgBox" id="imgBox2">
+        Caixa2<br /><img src="img_lights.jpg" alt="Noite" style="width:100%" /><input type="button" onclick="changeVisibility()" value="Ocultar Elemento" />
+    </div>
+    <div class="imgBox" id="imgBox3">Caixa 3<br /><img src="img_forest.jpg" alt="Floresta" style="width:100%"/><input type="button" onclick="resetElement()" value="Reiniciar tudo" />
+    </div>
+
+    <script>
+        function removeElement() {
+            document.getElementById("imgBox1").style.display = "none";
+        }
+        function changeVisibility() {
+            document.getElementById("imgBox2").style.visibility = "hidden";
+        }
+        function resetElement() {
+            document.getElementById("imgBox1").style.display = "block";
+            document.getElementById("imgBox2").style.visibility ="visible"
+        }
+    </script>
+
+</body>
+</html>

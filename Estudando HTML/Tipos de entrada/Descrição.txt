@@ -1,0 +1,33 @@
+<input type = "text"> define um campo de entrada de texto de uma linha :
+<input type = "password"> define um campo de senha.
+<input type="submit"> define um botão para enviar dados de formulário para um manipulador de formulário.
+<input type="reset"> define um botão de reinicialização que irá redefinir todos os valores de formulário para seus valores padrão.
+<input type="radio"> define um botão de opção.
+<input type = "checkbox"> define uma caixa de seleção. As caixas de seleção permitem que um usuário selecione as opções ZERO ou MORE de um número limitado de opções.
+<input type="button">define um botão
+O <input type = "color"> é usado para campos de entrada que devem conter uma cor. Dependendo do suporte do navegador, um seletor de cores pode aparecer no campo de entrada.
+O <tipo de entrada = "data"> é usado para campos de entrada que devem conter uma data. Dependendo do suporte do navegador, um seletor de data pode aparecer no campo de entrada.
+O <input type = "datetime-local"> especifica um campo de entrada de data e hora, sem fuso horário. Dependendo do suporte do navegador, um seletor de data pode aparecer no campo de entrada.
+O <input type = "email"> é usado para campos de entrada que devem conter um endereço de e-mail. Dependendo do suporte do navegador, o endereço de e-mail pode ser validado automaticamente quando submetido. Alguns smartphones reconhecem o tipo de email e adicionam ".com" ao teclado para combinar a entrada de e-mail.
+O <input type = "month"> permite ao usuário selecionar um mês e ano. Dependendo do suporte do navegador, um seletor de data pode aparecer no campo de entrada.
+O <input type = "number"> define um campo de entrada numérico. Você também pode definir restrições sobre quais os números aceitos.
+
+disable - Especifica que um campo de entrada deve ser desabilitado
+max - Especifica o valor máximo para um campo de entrada
+maxlength - Especifica o número máximo de caracteres para um campo de entrada
+min - Especifica o valor mínimo para um campo de entrada
+patten - Especifica uma expressão regular para verificar o valor de entrada contra
+readonly - leitura Especifica que um campo de entrada é somente leitura (não pode ser alterado)
+required - Especifica que um campo de entrada é necessário (deve ser preenchido)
+size - Especifica a largura (em caracteres) de um campo de entrada
+step - Especifica os intervalos de números legais para um campo de entrada
+value -  Especifica o valor padrão para um campo de entrada
+
+Faixa de tipo de entrada
+O <input type = "range"> define um controle para inserir um número cujo valor exato não é importante (como um controle deslizante). O intervalo padrão é de 0 a 100. No entanto, você pode definir restrições sobre quais os números aceitos com os atributos min, max e etapa
+O <input type = "search"> é usado para campos de pesquisa (um campo de pesquisa se comporta como um campo de texto regular).
+O <input type = "tel"> é usado para campos de entrada que devem conter um número de telefone.
+O <input type = "time"> permite ao usuário selecionar uma hora (sem fuso horário). Dependendo do suporte do navegador, um seletor de horário pode aparecer no campo de entrada.
+O <input type = "url"> é usado para campos de entrada que devem conter um endereço de URL. Dependendo do suporte do navegador, o campo url pode ser validado automaticamente quando submetido. Alguns smartphones reconhecem o tipo de URL e adicionam ".com" ao teclado para coincidir com a entrada do url.
+O <input type="week"> permite ao usuário selecionar uma semana e um ano. Dependendo do suporte do navegador, um seletor de data pode aparecer no campo de entrada.
+<input type=""> Especifica o tipo de entrada a ser exibido

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>if múltiplos</title>
+    <script>
+
+        var nota = 100;
+        var res;
+        if ((nota >= 90) && (nota <=100)) {
+            res = "Excelente"
+        }
+        if ((nota >= 80) && (nota < 90)) {
+            res = "Ótimo"
+        }
+        if ((nota >= 70) && (nota < 80)) {
+            res="Bom"
+        }
+        if ((nota >= 60) && (nota < 70))
+        {
+            res = ("Suficiente");
+
+        } else if ((nota >= 40) && (nota<60)) {
+            res = "Recuperação";
+        }
+        else {
+            res = ("Reprovado");
+        }
+        document.write(res);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

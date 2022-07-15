@@ -1,0 +1,52 @@
+A propriedade de exibição
+
+A displaypropriedade especifica se / como um elemento é exibido.
+Cada elemento HTML tem um valor de exibição padrão dependendo do tipo de elemento que é. O valor de exibição padrão para a maioria dos elementos é blockou inline.
+
+Elementos de nível de bloco
+
+Um elemento de nível de bloco sempre começa em uma nova linha e ocupa toda a largura disponível (se estende para a esquerda e a direita, na medida do possível).
+
+
+O elemento <div> é um elemento de nível de bloco.
+Exemplos de elementos de nível de bloco:
+
+<div>
+<h1> - <h6>
+<p>
+<form>
+<header>
+<footer>
+<section>
+Elementos em linha
+Um elemento em linha não inicia em uma nova linha e só ocupa toda a largura conforme necessário.
+
+Este é um elemento <span> em linha dentro de um parágrafo.
+
+Exemplos de elementos inline:
+
+<span>
+<a>
+<img>
+Mostrar nenhum;
+display: none;é comumente usado com JavaScript para ocultar e mostrar elementos sem excluí-los e recriá-los. Dê uma olhada no nosso último exemplo nesta página se quiser saber como isso pode ser alcançado.
+
+O <script>elemento usa display: none; como padrão. 
+
+
+Substituir o valor da exibição padrão
+Como mencionado, cada elemento tem um valor de exibição padrão. No entanto, você pode substituir isso.
+
+Alterar um elemento em linha para um elemento de bloco, ou vice-versa, pode ser útil para fazer a página procurar de forma específica e seguir os padrões da web.
+
+Um exemplo comum é criar <li>elementos inline para menus horizontais:
+
+
+Nota: Definir a propriedade de exibição de um elemento apenas altera como o elemento é exibido , NÃO que tipo de elemento é. Assim, um elemento inline com display: block;não tem permissão para ter outros elementos de bloco dentro dele.
+
+Ocultar um elemento - exibição: nenhum ou visibilidade: oculto
+Ocultar um elemento pode ser feito configurando a displaypropriedade para none. O elemento será escondido, e a página será exibida como se o elemento não estivesse lá:
+
+visibility:hidden; também esconde um elemento.
+
+No entanto, o elemento ainda ocupará o mesmo espaço que antes. O elemento será escondido, mas ainda afetará o layout

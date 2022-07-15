@@ -1,0 +1,47 @@
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\print directy rdlc.exe.config
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\print directy rdlc.exe
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\print directy rdlc.pdb
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Joelmir\desktop\print directy rdlc\obj\Debug\print directy rdlc.csprojAssemblyReference.cache
+C:\Users\Joelmir\desktop\print directy rdlc\obj\Debug\print_directy_rdlc.Form1.resources
+C:\Users\Joelmir\desktop\print directy rdlc\obj\Debug\print_directy_rdlc.Properties.Resources.resources
+C:\Users\Joelmir\desktop\print directy rdlc\obj\Debug\print directy rdlc.csproj.GenerateResource.cache
+C:\Users\Joelmir\desktop\print directy rdlc\obj\Debug\RdlCompile.cache
+C:\Users\Joelmir\desktop\print directy rdlc\obj\Debug\RdlCompile.compiled
+C:\Users\Joelmir\desktop\print directy rdlc\obj\Debug\print directy rdlc.csproj.CoreCompileInputs.cache
+C:\Users\Joelmir\desktop\print directy rdlc\obj\Debug\print directy rdlc.csproj.CopyComplete
+C:\Users\Joelmir\desktop\print directy rdlc\obj\Debug\print directy rdlc.exe
+C:\Users\Joelmir\desktop\print directy rdlc\obj\Debug\print directy rdlc.pdb

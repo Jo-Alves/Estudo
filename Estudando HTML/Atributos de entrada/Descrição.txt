@@ -1,0 +1,99 @@
+O atributo readonly especifica que o campo de entrada é somente leitura (não pode ser alterado)
+O atributo desativado especifica que o campo de entrada está desabilitado.
+Um campo de entrada disabled é inutilizável e não clicável, e seu valor não será enviado ao enviar o formulário
+O atributo size especifica o tamanho (em caracteres) para o campo de entrada
+O atributo maxlength especifica o comprimento máximo permitido para o campo de entrada: Com um atributo maxlength, o campo de entrada não aceita mais do que o número permitido de caracteres. O atributo maxlength não fornece nenhum feedback. Se você deseja alertar o usuário, você deve escrever o código JavaScript.
+
+HTML5 adicionou os seguintes atributos para <input>:
+
+autocomplete
+autofocus
+form
+formaction
+formenctype
+formmethod
+formnovalidate
+formtarget
+height and width
+list
+min and max
+multiple
+pattern (regexp)
+placeholder
+required
+step
+
+O atributo de preenchimento automático especifica se um formulário ou campo de entrada deve ter ativado ou desativado o autocompletar. 
+Quando o preenchimento automático está ativado, o navegador completa automaticamente os valores de entrada com base nos valores que o usuário já inseriu antes. Dica: é possível ter "preenchido" automaticamente para o formulário e "desligado" para campos de entrada específicos, ou vice-versa.
+O atributo de preenchimento automático funciona com <form> e os seguintes tipos de <input>: texto, pesquisa, url, tel, email, senha, datepickers, alcance e cor. 
+O atributo de foco automático especifica que o campo de entrada deve obter automaticamente o foco quando a página é carregada.
+O atributo formaction especifica a URL de um arquivo que processará o controle de entrada quando o formulário for enviado.
+O atributo formaction substitui o atributo de ação do elemento <form>. O atributo formaction é usado com type = "submit" e type = "image".
+EX: (<form action="/action_page.php">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit"><br>
+  <input type="submit" formaction="/action_page2.php"
+  value="Submit as admin">
+</form>
+)
+
+O atributo formenctype especifica como os dados do formulário devem ser codificados quando enviados (apenas para formulários com method = "post").
+O atributo formenctype substitui o atributo enctype do elemento <form>.
+O atributo formenctype é usado com type = "submit" e digite = "image".
+Exemplo:
+Enviar dados de formulário que são codificados por padrão (o primeiro botão de envio) e codificados como "multipart / form-data" (o segundo botão de envio):
+
+<form action="/action_page_binary.asp" method="post">
+  First name: <input type="text" name="fname"><br>
+  <input type="submit" value="Submit">
+  <input type="submit" formenctype="multipart/form-data"
+  value="Submit as Multipart/form-data">
+</form>
+
+O atributo formmethod define o método HTTP para enviar dados de formulário para o URL da ação.
+O atributo formmethod substitui o atributo do método do elemento <form>.
+O atributo formmethod pode ser usado com type = "submit" e digite = "image".
+Exemplo:
+O segundo botão de envio substitui o método HTTP do formulário:
+<form action="/action_page.php" method="get">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+  <input type="submit" formmethod="post" value="Submit using POST">
+</form>
+
+O atributo formnovalidate substitui o atributo novalidate do elemento <form>.
+O atributo formnovalidate pode ser usado com type = "submit".
+
+Exemplo:
+Um formulário com dois botões de envio (com e sem validação):
+<form action="/action_page.php">
+  E-mail: <input type="email" name="userid"><br>
+  <input type="submit" value="Submit"><br>
+  <input type="submit" formnovalidate value="Submit without validation">
+</form>
+
+O atributo formtarget especifica um nome ou uma palavra-chave que indica onde exibir a resposta recebida após o envio do formulário.
+O atributo formtarget substitui o atributo de destino do elemento <form>.
+O atributo formtarget pode ser usado com type = "submit" e digite = "image"
+
+Os atributos de altura e largura especificam a altura e a largura de um elemento <input type = "image">.
+O atributo list refere-se a um elemento <datalist> que contém opções pré-definidas para um elemento <input>.
+Os atributos min e max especificam os valores mínimo e máximo para um elemento <input>. Os atributos min e max funcionam com os seguintes tipos de entrada: número, intervalo, data, data-hora local, mês, hora e semana.
+
+O atributo multiple especifica que o usuário pode inserir mais de um valor no elemento <input>.
+O atributo multiple funciona com os seguintes tipos de entrada: e-mail e arquivo.
+
+O atributo de pattern especifica uma expressão regular em que o valor do elemento <input> é verificado contra.
+O atributo de pattern funciona com os seguintes tipos de entrada: texto, pesquisa, url, tel, email e senha.
+
+O atributo necessário especifica que um campo de entrada deve ser preenchido antes de enviar o formulário.
+
+O atributo requerid especifica que um campo de entrada deve ser preenchido antes de enviar o formulário.
+O atributo required funciona com os seguintes tipos de entrada: texto, pesquisa, url, tel, email, senha, selecionadores de data, número, caixa de seleção, rádio e arquivo.
+
+O atributo step especifica os intervalos de número legal para um elemento <input>.
+Exemplo: se step = "3", números legais podem ser -3, 0, 3, 6, etc.
+Dica: O atributo passo pode ser usado junto com os atributos máximo e min para criar uma gama de valores legais.
+O atributo passo funciona com os seguintes tipos de entrada: número, intervalo, data, data-hora local, mês, hora e semana.

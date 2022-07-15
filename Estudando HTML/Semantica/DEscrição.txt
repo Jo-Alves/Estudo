@@ -1,0 +1,43 @@
+O elemento <section> define uma seção em um documento. De acordo com a documentação HTML5 do W3C: "Uma seção é um agrupamento temático de conteúdo, normalmente com um título".Normalmente, uma página inicial pode ser dividida em seções para introdução, conteúdo e informações de contato.
+
+O elemento <article> especifica conteúdo independente e autônomo.
+Um artigo deve ter sentido por conta própria, e deve ser possível lê-lo independentemente do resto do site.
+Exemplos de onde um elemento <article> pode ser usado:
+
+Postagem do fórum
+Postagem do blog
+Artigo de jornal
+
+O elemento <header> especifica um cabeçalho para um documento ou seção.
+O elemento <header> deve ser usado como um recipiente para conteúdo introdutório.
+Você pode ter vários elementos <header> em um único documento.
+O exemplo a seguir define um cabeçalho para um artigo:
+
+O elemento <footer> especifica um rodapé para um documento ou seção.
+Um elemento <footer> deve conter informações sobre seu elemento contendo.
+Um rodapé normalmente contém o autor do documento, informações de direitos autorais, links para termos de uso, informações de contato, etc.
+Você pode ter vários elementos <footer> em um único documento.
+
+O elemento <aside> define algum conteúdo além do conteúdo em que é colocado (como uma barra lateral).
+O conteúdo à parte deve estar relacionado ao conteúdo circundante.
+
+O elemento <nav> define um conjunto de links de navegação.
+Observe que NÃO todos os links de um documento devem estar dentro de um elemento <nav>. O elemento <nav> destina-se apenas ao bloco principal de links de navegação.
+
+A finalidade de uma legenda de figura é adicionar uma explicação visual a uma imagem.
+Em HTML5, uma imagem e uma legenda podem ser agrupadas em um elemento <figure> :
+O elemento <img> define a imagem, o elemento <figcaption> define a legenda.
+
+<article> Define um artigo
+<aside> Define o conteúdo além do conteúdo da página
+<details> Define detalhes adicionais que o usuário pode visualizar ou ocultar
+<figcaption> Define uma legenda para um elemento <figura>
+<figure> Especifica conteúdo autônomo, como ilustrações, diagramas, fotos, listas de códigos, etc.
+<footer> Define um rodapé para um documento ou seção
+<header> Especifica um cabeçalho para um documento ou seção
+<main> Especifica o conteúdo principal de um documento
+<mark> Define o texto marcado / destacado
+<nav> Define links de navegação
+<section> Define uma seção em um documento
+<summary> Define um título visível para um elemento <details>
+<time> Define uma data / hora

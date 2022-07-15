@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <title>Atributos de entrada</title>
+</head>
+<body>
+    <form action="envio.html" autocomplete="on">
+        <p>O atributo <span style="font-weight:bold; background-color:greenyellow;">readonly</span> especifica que o campo de entrada é somente leitura (não pode ser alterado):</p>
+        <label for="nome">Nome: </label><input type="text" id="nome" value="Joelmir" readonly />
+        <label for="SobreNome">Sobre Nome: </label><input type="text" id="SobreNome" />
+        <br /><hr /><br />
+        <p>Um campo de entrada <span style="font-weight:bold; background-color:greenyellow;">disabled</span> é inutilizável e não clicável, e seu valor não será enviado ao enviar o formulário:</p>
+        <label for="nome">Nome: </label><input type="text" id="nome" value="Joelmir" disabled />
+        <label for="SobreNome">Sobre Nome: </label><input type="text" id="SobreNome" />
+        <br /><hr /><br />
+        <p>O atributo <span style="font-weight:bold;background-color:greenyellow;">size</span> especifica o tamanho (em caracteres) para o campo de entrada:</p>
+        <input type="text" value="Joelmir" size="8" />
+        <br /><hr /><br />
+        <p>O atributo <span style="font-weight:bold;background-color:greenyellow;">maxlength</span> especifica o comprimento máximo permitido para o campo de entrada:</p>
+        <input type="text" style="font-weight:bold;background-color:blue; color:white" size="11" maxlength="10" placeholder="Digite aqui" />
+        <p>Com um atributo maxlength, o campo de entrada não aceita mais do que o número permitido de caracteres.</p>
+        <p>O atributo maxlength não fornece nenhum feedback. Se você deseja alertar o usuário, você deve escrever o código JavaScript.</p>
+        <br /><hr /><br />
+        <p style="text-align:justify;">O atributo de <span style="font-weight:bold;">autocomplete </span>especifica se um formulário ou campo de entrada deve ter ativado ou desativado o autocompletar. Quando o preenchimento automático está ativado, o navegador completa automaticamente os valores de entrada com base nos valores que o usuário já inseriu antes. Dica: é possível ter "preenchido" automaticamente para o formulário e "desligado" para campos de entrada específicos, ou vice-versa. O atributo de preenchimento automático funciona com &lsaquo;form&rsaquo; e os seguintes tipos de <input>: texto, pesquisa, url, tel, email, senha, datepickers, alcance e cor. </p>
+        <label for="nome">Nome: </label><input type="text" id="nome" />
+        <label for="SobreNome">Sobre Nome: </label><input type="text" id="SobreNome" />
+        <input type="email" autocomplete="on" />
+        <br>
+        <input type="button" value="Enviar" onclick="alert('Dados enviado com sucesso!')" />
+        <input type="reset" value="Limpar" /><br /><hr /><br />
+        <p>O atributo de <span style="font-weight:bolder">autofocus</span> especifica que o campo de entrada deve obter automaticamente o foco quando a página é carregada.</p>
+        <label for="nome">Nome: </label><input type="text" id="nome" autofocus />
+        <label for="nome1">Sobrenome: </label><input type="text" id="nome1" />
+        <br /><hr /><br />
+
+        <p> O atributo <span style="font-weight:bold;">list</span> refere-se a um elemento &lsaquo;datalist&rsaquo; que contém opções pré-definidas para um elemento &lsaquo;input&rsaquo;.</p>
+        <p>Exemplo: </p>
+        <p> Um elemento &lsaquo;input&rsaquo; com valores pré-definidos em um &lsaquo;datalist&rsaquo;:</p>
+        <input list="navegadores" />
+        <datalist id="navegadores">
+            <option value="Internet Explorer"></option>
+            <option value="Firefox"></option>
+            <option value="Google chrome"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option>
+            <option value="Nescape"></option>
+        </datalist>
+        <input type="submit" />
+        <br /><hr /><br />
+        <p> atributo <span style="background-color:greenyellow; font-weight:bold;">multiple</span> especifica que o usuário pode inserir mais de um valor no elemento &lsaquo;input&rsaquo;.O atributo múltiplo funciona com os seguintes tipos de entrada: e-mail e arquivo.</p>
+        <label for="Sl">Selecione imagens: </label><input type="file" multiple /><input type="submit" />
+        <br /><hr /><br />
+        <p> O atributo de <span style="background-color:aqua; color:white; font-weight:bold;">pattern</span> especifica uma expressão regular em que o valor do elemento &lsaquo;input&rsaquo; é verificado contra. O atributo de padrão funciona com os seguintes tipos de entrada: texto, pesquisa, url, tel, email e senha. </p>
+        Código do País: <input type="text" pattern="[A-Za-z]{3}" title="Código de país de três letras" /><input type="submit" /><br /><br />
+        <br /><hr /><br />
+
+        <p>O atributo <span style="background-color:aqua;color:white;font-weight:bold; text-align:justify;">requerid</span> especifica que um campo de entrada deve ser preenchido antes de enviar o formulário.</p>
+        <p>O atributo <span style="background-color:aqua;color:white;font-weight:bold; text-align:justify;">required</span> funciona com os seguintes ipos de entrada: texto, pesquisa, url, tel, email, senha, selecionadores de data, número, caixa de seleção, rádio e arquivo.</p>
+        <input type="text" required /><input type="submit" />
+        <br /><hr /><br /><p> O atributo <span style="background-color:aqua;color:white;font-weight:bold; text-align:justify;">step</span> especifica os intervalos de número legal para um elemento <input>.
+        <p> Exemplo: se step = "3", números legais podem ser -3, 0, 3, 6, etc.</p>
+        <p>Dica: O atributo passo pode ser usado junto com os atributos máximo e min para criar uma gama de valores legais.</p>
+        <p> atributo passo funciona com os seguintes tipos de entrada: número, intervalo, data, data-hora local, mês, hora e semana. </p>
+        <input type="number" step="5" /><input type="button" value="Enviar" onclick="alert('Enviado com sucesso!')" />
+        <br /><hr /><br />
+
+    </form>    
+</body>
+</html>

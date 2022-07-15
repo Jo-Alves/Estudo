@@ -1,0 +1,5 @@
+<form>
+Nome completo: <input type=text name = nome completo> <br>
+Telefone: <input type=text maxlength=9 name = telefone> <br> 
+Profissão: <input type=text size=10 name = profissão> <br> 
+</form>

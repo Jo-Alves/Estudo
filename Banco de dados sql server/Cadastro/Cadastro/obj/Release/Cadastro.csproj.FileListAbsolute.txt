@@ -1,0 +1,16 @@
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\bin\Release\Cadastro.exe
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\bin\Release\Cadastro.pdb
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\obj\Release\Cadastro.Form1.resources
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\obj\Release\Cadastro.Properties.Resources.resources
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\obj\Release\Cadastro.csproj.GenerateResource.Cache
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\obj\Release\Cadastro.exe
+C:\Users\Joelmir\AppData\Local\Temporary Projects\Cadastro\obj\Release\Cadastro.pdb
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\obj\Release\Cadastro.exe
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\obj\Release\Cadastro.Form1.resources
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\obj\Release\Cadastro.Properties.Resources.resources
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\obj\Release\Cadastro.csproj.GenerateResource.Cache
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\bin\Release\Cadastro.exe
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\bin\Release\Cadastro.pdb
+C:\Users\Joelmir\Desktop\Projeto\Cadastro\Cadastro\obj\Release\Cadastro.pdb

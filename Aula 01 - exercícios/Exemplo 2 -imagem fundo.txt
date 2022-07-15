@@ -1,0 +1,9 @@
+<html>
+<head>
+<title> Imagem de fundo</title>
+</head>
+<body background="nuvens.jpg">
+<h3><center>Utilizando uma imagem como fundo</center></h3>
+</body>
+</html>
+
